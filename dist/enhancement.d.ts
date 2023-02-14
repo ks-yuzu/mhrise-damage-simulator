@@ -1,7 +1,7 @@
 import type { DeepPartial } from './util/deep-partial';
 export interface EnhancementMetadata {
     readonly name: string;
-    readonly level: number;
+    readonly level: string;
     readonly duration: string;
     readonly description: string;
     readonly category: string;
@@ -26,6 +26,7 @@ export default class Enhancement {
     readonly spec: EnhancementSpec;
     constructor(params: DeepPartial<Enhancement>);
 }
-export declare function makeEnhancement(name: string, level: number, spec: Partial<EnhancementSpec>): Enhancement;
+export declare function makeEnhancement(name: string, level: string, spec: Partial<EnhancementSpec>): Enhancement;
 export declare function getEnhancementsByCategory(category: string): Enhancement[];
 export declare const ENHANCEMENTS: Enhancement[];
+//# sourceMappingURL=enhancement.d.ts.map

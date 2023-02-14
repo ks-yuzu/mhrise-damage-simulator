@@ -7,9 +7,6 @@ item,,鬼人薬,0,null,5,null,null,null,null,null,null,null,null, 力尽きる�
 item,,鬼人薬グレート,0,null,7,null,null,null,null,null,null,null,null, 力尽きるまで, true, false,
 item,,鬼人弾,0,null,10,null,null,null,null,null,null,null,null, 3分, true, false, 他と重複可、斬れ味補正1.1倍
 item,,ニトロダケ,0,null,5,null,null,null,null,null,null,null,null, 力尽きるまで, true, false, 要:キノコ大好きLv2、鬼人薬系と重複不可
-item,,接撃ビン,0,null,null,null,1.2,null,null,null,null,null,null,null, false, true,(注)近接攻撃の補正は考慮しない
-item,,接撃ビン+,0,null,null,null,1.2,null,null,null,null,null,null,null, false, false,(注)近接攻撃の補正は考慮しない。(=接撃ビンと同じ)
-item,,強撃ビン,0,null,null,null,1.35,null,null,null,null,null,null,null, false, false,
 skill,,挑戦者,1,null,4,null,null,null,null,null,3,null,null,null, false, false, モンスター怒り時
 skill,,挑戦者,2,null,8,null,null,null,null,null,5,null,null,null, false, false, モンスター怒り時
 skill,,挑戦者,3,null,12,null,null,null,null,null,7,null,null,null, false, false, モンスター怒り時
@@ -57,9 +54,33 @@ skill,,不屈,2,1.2,null,null,null,null,null,null,null,null,null,null, false, fa
 skill,太刀/大剣/狩猟笛/ハンマー/双剣/片手剣/スラッシュアックス/チャージアックス/ランス/ガンランス/操虫棍,心眼,1,null,null,null,1.1,null,null,null,null,null,null,null, true, false,切れ味補正後の肉質44以下で有効
 skill,太刀/大剣/狩猟笛/ハンマー/双剣/片手剣/スラッシュアックス/チャージアックス/ランス/ガンランス/操虫棍,心眼,2,null,null,null,1.15,null,null,null,null,null,null,null, true, false,切れ味補正後の肉質44以下で有効
 skill,太刀/大剣/狩猟笛/ハンマー/双剣/片手剣/スラッシュアックス/チャージアックス/ランス/ガンランス/操虫棍,心眼,3,null,null,null,1.2,null,null,null,null,null,null,null, true, false,切れ味補正後の肉質44以下で有効
-weapon,,攻撃力UP旋律,0,null,null,1.1,null,null,null,null,null,null,null, 1分, true, false,狩猟笛
-weapon,,会心率UP旋律,0,null,null,null,null,null,null,null,20,null,null,1分, true, false,狩猟笛
-weapon,,気炎の旋律,0,null,null,1.2,null,null,null,null,null,null,null, 20秒, true, false, オトモは 1.3 倍、攻撃力UP旋律と重複しない
+others,,紅ヒトダマドリ,+1,null,1,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+2,null,2,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+3,null,3,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+4,null,4,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+5,null,5,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+6,null,6,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+7,null,7,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+8,null,8,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+9,null,9,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+10,null,10,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+11,null,11,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+12,null,12,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+13,null,13,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+14,null,14,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+15,null,15,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+16,null,16,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+17,null,17,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+18,null,18,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+19,null,19,null,null,null,null,null,null,null,null,null, false, false,
+others,,紅ヒトダマドリ,+20,null,20,null,null,null,null,null,null,null,null,null, false, false,
+others,,赤シラヌイカ,1匹,null,null,null,null,null,null,null,15,null,null,1分, true, false,環境生物
+others,,赤シラヌイカ,2匹,null,null,null,null,null,null,null,30,null,null,1分, true, false,環境生物
+others,,赤シラヌイカ,3匹,null,null,null,null,null,null,null,45,null,null,1分, true, false,環境生物
+others,,赤シラヌイカ,4匹～,null,null,null,null,null,null,null,50,null,null,1分, true, false,環境生物
+others,,攻撃力UP旋律,0,null,null,1.1,null,null,null,null,null,null,null, 1分, true, false,狩猟笛
+others,,会心率UP旋律,0,null,null,null,null,null,null,null,20,null,null,1分, true, false,狩猟笛
+others,,気炎の旋律,0,null,null,1.2,null,null,null,null,null,null,null, 20秒, true, false, オトモは 1.3 倍、攻撃力UP旋律と重複しない
 weapon,大剣,強化納刀,0,1.1,null,null,null,null,null,null,null,null,null, 20秒, true, false, 大剣
 weapon,太刀,練気ゲージ (白),0,1.04,null,null,null,null,null,null,null,null,null,null, false, false, 太刀
 weapon,太刀,練気ゲージ (黄),0,1.08,null,null,null,null,null,null,null,null,null,null, false, false, 太刀
@@ -100,26 +121,6 @@ dango,,おだんごビルドアップ,4,null,15,null,null,null,null,null,null,nu
 others,,強化太鼓の技,0,1.05,null,null,null,null,null,null,null,null,null, 2分, true, false, オトモアイルー
 others,,強化咆哮の技,0,null,null,null,null,null,null,null,30,null,null,2分30秒, true, false,オトモアイルー
 others,,ホムラチョウ,0,null,25,null,null,null,null,null,null,null,null, 1分, true, false,
-others,,紅ヒトダマドリ,1,null,1,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,2,null,2,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,3,null,3,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,4,null,4,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,5,null,5,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,6,null,6,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,7,null,7,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,8,null,8,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,9,null,9,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,10,null,10,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,11,null,11,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,12,null,12,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,13,null,13,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,14,null,14,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,15,null,15,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,16,null,16,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,17,null,17,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,18,null,18,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,19,null,19,null,null,null,null,null,null,null,null,null, false, false,
-others,,紅ヒトダマドリ,20,null,20,null,null,null,null,null,null,null,null,null, false, false,
 others,,浮遊泡（赤）,0,null,10,null,null,null,null,null,null,null,null, 1分30秒, true, false, タマミツネの泡
 ,,,,,,,,,,,,,,,,,
 skill,,火/水/雷/氷/龍属性強化,1,null,null,null,null,null,2,null,null,null,null,null, false, false,
@@ -155,32 +156,31 @@ skill,,渾身,3,null,null,null,null,null,null,null,30,null,null,null, true, fals
 skill,,抜刀術【技】,1,null,null,null,null,null,null,null,15,null,null,3秒, true, false,
 skill,,抜刀術【技】,2,null,null,null,null,null,null,null,30,null,null,3秒, true, false,
 skill,,抜刀術【技】,3,null,null,null,null,null,null,null,60,null,null,3秒, true, false,
-weapon,,曲射(会心型),0,null,null,null,null,null,null,null,15,null,null,11秒, true, false,弓
+others,,曲射(会心型),0,null,null,null,null,null,null,null,15,null,null,11秒, true, false,弓
 others,,アミキリアカネ,0,null,null,null,null,null,null,null,50,null,null,1分, true, false,環境生物
-others,,赤シラヌイカ (1匹),0,null,null,null,null,null,null,null,15,null,null,1分, true, false,環境生物
-others,,赤シラヌイカ (2匹),0,null,null,null,null,null,null,null,30,null,null,1分, true, false,環境生物
-others,,赤シラヌイカ (3匹),0,null,null,null,null,null,null,null,45,null,null,1分, true, false,環境生物
-others,,赤シラヌイカ (4匹～),0,null,null,null,null,null,null,null,50,null,null,1分, true, false,環境生物
 others,,金シラヌイカ,0,null,null,null,null,null,null,null,50,null,null,1分, true, false,環境生物
 ,,,,,,,,,,,,,,,,,
 weapon,弓,弓溜め段階,1,null,null,null,0.65,null,null,0.7,null,null,null,null, true, false,
 weapon,弓,弓溜め段階,2,null,null,null,1,null,null,0.85,null,null,null,null, true, false,
 weapon,弓,弓溜め段階,3,null,null,null,1.25,null,null,1,null,null,null,null, true, false,
 weapon,弓,弓溜め段階,4,null,null,null,1.35,null,null,1.2,null,null,null,null, true, true,
-skill,弓/ライトボウガン/ヘビィボウガン,通常弾・連射矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,通常弾・連射矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,通常弾・連射矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,貫通弾・貫通矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,貫通弾・貫通矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,貫通弾・貫通矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,散弾・拡散矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,散弾・拡散矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
-skill,弓/ライトボウガン/ヘビィボウガン,散弾・拡散矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, true,
+skill,disabled,通常弾・連射矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+skill,disabled,通常弾・連射矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
+skill,disabled,通常弾・連射矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
+skill,disabled,貫通弾・貫通矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+skill,disabled,貫通弾・貫通矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
+skill,disabled,貫通弾・貫通矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
+skill,disabled,散弾・拡散矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+skill,disabled,散弾・拡散矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
+skill,disabled,散弾・拡散矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, true,
+skill,弓/ライトボウガン/ヘビィボウガン,○○弾・○○矢強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+skill,弓/ライトボウガン/ヘビィボウガン,○○弾・○○矢強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
+skill,弓/ライトボウガン/ヘビィボウガン,○○弾・○○矢強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, true,
 skill,ライトボウガン,速射強化,1,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
 skill,ライトボウガン,速射強化,2,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
 skill,ライトボウガン,速射強化,3,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
-skill,,特殊射撃強化,1,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
-skill,,特殊射撃強化,2,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
+skill,弓/ライトボウガン/ヘビィボウガン,特殊射撃強化,1,null,null,null,1.1,null,null,null,null,null,null,null, false, false,
+skill,弓/ライトボウガン/ヘビィボウガン,特殊射撃強化,2,null,null,null,1.2,null,null,null,null,null,null,null, false, false,
 weapon,大剣,溜め,1,null,null,null,1.1,null,null,1.1,null,null,null,null, true, false,
 weapon,大剣,溜め,2,null,null,null,1.2,null,null,1.2,null,null,null,null, true, false,
 weapon,大剣,溜め,3,null,null,null,1.3,null,null,1.3,null,null,null,null, true, false,
@@ -188,10 +188,13 @@ weapon,ガンランス,地烈斬,0,null,null,null,1.2,null,null,1.2,null,null,nu
 weapon,チャージアックス,属性強化状態,0,null,null,null,1.1,null,null,1.1,null,null,null,null, true, false,斧攻撃のダメージUP
 weapon,_チャージアックス,属性強化状態,0,null,null,null,1.3,null,null,1.3,null,null,null,null, true, false,榴弾ダメージUP
 weapon,スラッシュアックス,強撃ビン,0,null,null,null,1.15,null,null,1.15,null,null,null,null, true, false,剣モードのダメージUP
-weapon,弓,近距離,0,null,null,null,0.8,null,null,0.8,null,null,null,null, true, false,
-weapon,ライトボウガン/ヘビィボウガン,近距離,0,null,null,null,0.8,null,null,0.8,null,null,null,null, true, false,
-weapon,弓,遠距離,0,null,null,null,0.2,null,null,0.2,null,null,null,null, true, false,
-weapon,ライトボウガン/ヘビィボウガン,遠距離,0,null,null,null,0.1,null,null,0.1,null,null,null,null, true, false,
+weapon,弓,距離補正,近距離,null,null,null,0.8,null,null,0.8,null,null,null,null, true, false,
+weapon,ライトボウガン/ヘビィボウガン,距離補正,近距離,null,null,null,0.8,null,null,0.8,null,null,null,null, true, false,
+weapon,弓,距離補正,遠距離,null,null,null,0.2,null,null,0.2,null,null,null,null, true, false,
+weapon,ライトボウガン/ヘビィボウガン,距離補正,遠距離,null,null,null,0.1,null,null,0.1,null,null,null,null, true, false,
+weapon,弓,ビン,接撃ビン,null,null,null,1.2,null,null,null,null,null,null,null, false, true,(注)近接攻撃の補正は考慮しない
+weapon,弓,ビン,接撃ビン+,null,null,null,1.2,null,null,null,null,null,null,null, false, false,(注)近接攻撃の補正は考慮しない。(=接撃ビンと同じ)
+weapon,弓,ビン,強撃ビン,null,null,null,1.35,null,null,null,null,null,null,null, false, false,
 weapon,ライトボウガン,速射,0,null,null,null,0.7,null,null,0.7,null,null,null,null, false, false,
 weapon,ライトボウガン,属性強化リロード,0,null,null,null,1.1,null,null,1.1,null,null,null,null, true, false,属性ダメージに補正
 weapon,ライトボウガン,ステップ回避,0,null,null,null,1.1,null,null,1.1,null,null,null,null, true, false,ステップ回避直後の射撃
@@ -219,21 +222,21 @@ skill,,弱点特効【属性】,3,null,null,null,null,null,null,1.15,null,null,n
 skill,弓,チャージマスター,1,null,null,null,null,null,null,1.05,null,null,null,null, false, false,
 skill,弓,チャージマスター,2,null,null,null,null,null,null,1.1,null,null,null,null, false, false,
 skill,弓,チャージマスター,3,null,null,null,null,null,null,1.15,null,null,null,null, false, true,
-skill,,狂竜症【蝕】(克服前),1,null,10,null,null,null,5,null,null,null,null,null, true, false,
-skill,,狂竜症【蝕】(克服前),2,null,15,null,null,null,7,null,null,null,null,null, true, false,
-skill,,狂竜症【蝕】(克服前),3,null,20,null,null,null,10,null,null,null,null,null, true, false,
-skill,,狂竜症【蝕】(克服後),1,null,null,null,null,null,null,null,20,null,null,60, true, false,
-skill,,狂竜症【蝕】(克服後),2,null,null,null,null,null,null,null,25,null,null,60, true, false,
-skill,,狂竜症【蝕】(克服後),3,null,null,null,null,null,null,null,25,null,null,90, true, false,
+skill,,狂竜症【蝕】,1 (克服前),null,10,null,null,null,5,null,null,null,null,null, true, false,
+skill,,狂竜症【蝕】,2 (克服前),null,15,null,null,null,7,null,null,null,null,null, true, false,
+skill,,狂竜症【蝕】,3 (克服前),null,20,null,null,null,10,null,null,null,null,null, true, false,
+skill,,狂竜症【蝕】,1 (克服後),null,null,null,null,null,null,null,20,null,null,60, true, false,
+skill,,狂竜症【蝕】,2 (克服後),null,null,null,null,null,null,null,25,null,null,60, true, false,
+skill,,狂竜症【蝕】,3 (克服後),null,null,null,null,null,null,null,25,null,null,90, true, false,
 skill,,災禍転福,1,null,12,null,null,null,2,null,null,null,null,30, true, false,
 skill,,災禍転福,2,null,15,null,null,null,3,null,null,null,null,30, true, false,
 skill,,災禍転福,3,null,18,null,null,null,4,null,null,null,null,30, true, false,
-skill,,業鎧【修羅】(朱),1,null,15,null,null,null,null,null,null,null,null,null, true, false,
-skill,,業鎧【修羅】(朱),2,null,25,null,null,null,null,null,null,null,null,null, true, false,
-skill,,業鎧【修羅】(朱),3,null,35,null,null,null,null,null,null,null,null,null, true, false,
-skill,,業鎧【修羅】(蒼),1,null,null,null,null,1.05,null,null,null,null,null,null, true, false,
-skill,,業鎧【修羅】(蒼),2,null,null,null,null,1.1,null,null,null,null,null,null, true, false,
-skill,,業鎧【修羅】(蒼),3,null,null,null,null,1.2,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,1 (朱),null,15,null,null,null,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,2 (朱),null,25,null,null,null,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,3 (朱),null,35,null,null,null,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,1 (蒼),null,null,null,null,1.05,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,2 (蒼),null,null,null,null,1.1,null,null,null,null,null,null, true, false,
+skill,,業鎧【修羅】,3 (蒼),null,null,null,null,1.2,null,null,null,null,null,null, true, false,
 skill,,巧撃,1,null,10,null,null,null,null,null,null,null,null,30, true, false,
 skill,,巧撃,2,null,15,null,null,null,null,null,null,null,null,30, true, false,
 skill,,巧撃,3,null,30,null,null,null,null,null,null,null,null,30, true, false,
@@ -249,58 +252,113 @@ skill,,攻勢,3,null,15,null,null,null,null,null,20,null,null,null, true, false,
 skill,,蓄積時攻撃強化,1,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
 skill,,蓄積時攻撃強化,2,null,null,null,1.15,null,null,null,null,null,null,null, true, false,
 skill,,蓄積時攻撃強化,3,null,null,null,1.2,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱1),1,null,null,null,null,null,5,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱1),2,null,null,null,null,null,7,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱1),3,null,null,null,null,null,10,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱2),1,null,null,null,null,null,8,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱2),2,null,null,null,null,null,12,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (朱2),3,null,null,null,null,null,15,null,null,null,null,null, true, false,
-skill,,伏魔響命 (朱・キュリア3匹),1,null,null,null,null,null,12,null,null,null,null,null, true, false,
-skill,,伏魔響命 (朱・キュリア4匹),2,null,null,null,null,null,15,null,null,null,null,null, true, false,
-skill,,伏魔響命 (朱・キュリア5匹),3,null,null,null,null,null,20,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼1),1,null,15,null,null,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼1),2,null,20,null,null,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼1),3,null,25,null,null,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼2),1,null,20,null,null,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼2),2,null,25,null,null,null,null,null,null,null,null,null, true, false,
-skill,disabled,伏魔響命 (蒼2),3,null,30,null,null,null,null,null,null,null,null,null, true, false,
-skill,,伏魔響命 (蒼・キュリア3匹),1,null,25,null,null,null,null,null,null,null,null,null, true, false,
-skill,,伏魔響命 (蒼・キュリア4匹),2,null,30,null,null,null,null,null,null,null,null,null, true, false,
-skill,,伏魔響命 (蒼・キュリア5匹),3,null,35,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (朱・1匹),null,null,null,null,null,5,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (朱・1匹),null,null,null,null,null,7,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (朱・1匹),null,null,null,null,null,10,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (朱・2匹),null,null,null,null,null,8,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (朱・2匹),null,null,null,null,null,12,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (朱・2匹),null,null,null,null,null,15,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (朱・3匹),null,null,null,null,null,12,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (朱・3匹),null,null,null,null,null,15,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (朱・3匹),null,null,null,null,null,20,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (蒼・1匹),null,15,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (蒼・1匹),null,20,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (蒼・1匹),null,25,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (蒼・2匹),null,20,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (蒼・2匹),null,25,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (蒼・2匹),null,30,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,1 (蒼・3匹),null,25,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,2 (蒼・3匹),null,30,null,null,null,null,null,null,null,null,null, true, false,
+skill,,伏魔響命,3 (蒼・3匹),null,35,null,null,null,null,null,null,null,null,null, true, false,
 skill,,炎鱗/鋼殻の恩恵,1,null,null,null,null,1.05,null,null,null,null,null,null, false, false,
 skill,,炎鱗/鋼殻の恩恵,2,null,null,null,null,1.1,null,null,null,null,null,null, false, false,
-rampage-decoration,,劫血竜珠【2】(1段階),0,null,15,null,null,1.1,null,null,null,null,null,null, true, false,
-rampage-decoration,,劫血竜珠【2】(2段階),0,null,30,null,null,1.2,null,null,null,null,null,null, true, false,
-rampage-decoration,,鋼魂竜珠【3】(1hit),0,null,null,null,null,null,null,null,5,null,null,3秒, true, false,
-rampage-decoration,,鋼魂竜珠【3】(5hit),0,null,null,null,null,null,null,null,15,null,null,3秒, true, false,
-rampage-decoration,,属痛竜珠【3】,0,null,null,null,null,null,null,1.15,null,null,null,null, true, false,属性肉質25以上
-rampage-decoration,,破竜竜珠【2】,0,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,破獣竜珠【2】,0,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,破空竜珠【2】,0,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,破流竜珠【2】,0,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,破小竜珠【1】,0,null,null,null,1.5,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,火拡竜珠【1】,0,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
-rampage-decoration,,水拡竜珠【1】,0,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
-rampage-decoration,,雷拡竜珠【1】,0,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
-rampage-decoration,,氷拡竜珠【1】,0,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
-rampage-decoration,,鬼激竜珠【3】,0,null,null,null,null,null,null,null,20,null,null,null, true, false,
-rampage-decoration,,天魂竜珠【2】,0,null,null,null,null,1.2,null,null,null,null,null,null, true, false,龍属性やられ時、龍属性1.2倍
-rampage-decoration,,雷神竜珠【2】(しまきx1),0,null,null,null,null,null,null,null,5,null,null,null, false, false,しまき防具の装備数
-rampage-decoration,,雷神竜珠【2】(しまきx2),0,null,null,null,null,null,null,null,10,null,null,null, false, false,しまき防具の装備数
-rampage-decoration,,雷神竜珠【2】(しまきx3),0,null,null,null,null,null,null,null,15,null,null,null, false, false,しまき防具の装備数
-rampage-decoration,,雷神竜珠【2】(しまきx4),0,null,null,null,null,null,null,null,20,null,null,null, false, false,しまき防具の装備数
-rampage-decoration,,雷神竜珠【2】(しまきx5),0,null,null,null,null,null,null,null,25,null,null,null, false, false,しまき防具の装備数
-rampage-decoration,,痛恨竜珠【2】,0,null,null,null,1.5,null,null,null,null,null,null,null, true, false,マイナス会心時に25%の確率で物理会心補正を1.5倍
+skill,,奮闘,1 (赤ゲージ 60 %未満),null,null,null,null,1.05,null,null,5,null,null,null, false, false,
+skill,,奮闘,2 (赤ゲージ 60 %未満),null,null,null,null,1.1,null,null,10,null,null,null, false, false,
+skill,,奮闘,3 (赤ゲージ 60 %未満),null,null,null,null,1.15,null,null,10,null,null,null, false, false,
+skill,,奮闘,1 (赤ゲージ 60 %以上),null,null,null,null,1.1,null,null,10,null,null,null, false, false,
+skill,,奮闘,2 (赤ゲージ 60 %以上),null,null,null,null,1.15,null,null,15,null,null,null, false, false,
+skill,,奮闘,3 (赤ゲージ 60 %以上),null,null,null,null,1.2,null,null,20,null,null,null, false, false,
+skill,,冰気錬成,1,null,null,null,1.05,null,null,1.05,null,null,null,null, true, false,
+skill,,冰気錬成,2,null,null,null,1.2,null,null,1.2,null,null,null,null, true, false,ゲージ2本
+skill,,冰気錬成,3,null,null,null,1.3,null,null,1.3,null,null,null,null, true, false,ゲージ3本
 ,,,,,,,,,,,,,,,,,
-qurious-craft,,攻撃強化,1,null,5,null,null,null,null,null,null,null,null,null, false, false,
-qurious-craft,,攻撃強化,2,null,10,null,null,null,null,null,null,null,null,null, false, false,
-qurious-craft,,攻撃強化,3,null,15,null,null,null,null,null,null,null,null,null, false, false,
-qurious-craft,,攻撃強化,4,null,20,null,null,null,null,null,null,null,null,null, false, false,
-qurious-craft,,属性強化,1,null,null,null,null,null,3,null,null,null,null,null, false, false,
-qurious-craft,,属性強化,2,null,null,null,null,null,6,null,null,null,null,null, false, false,
-qurious-craft,,属性強化,3,null,null,null,null,null,9,null,null,null,null,null, false, false,
-qurious-craft,,属性強化,4,null,null,null,null,null,12,null,null,null,null,null, false, false,(注)大剣・ハンマー・ランス・ガンランスではさらに効果が大きい
-qurious-craft,,属性強化,5,null,null,null,null,null,15,null,null,null,null,null, false, false,(注)大剣・ハンマー・ランス・ガンランスではさらに効果が大きい
-qurious-craft,,属性強化,6,null,null,null,null,null,20,null,null,null,null,null, false, false,(注)大剣・ハンマー・ランス・ガンランスではさらに効果が大きい
-qurious-craft,,会心率強化,1,null,null,null,null,null,null,null,5,null,null,null, false, false,
-qurious-craft,,会心率強化,2,null,null,null,null,null,null,null,10,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,劫血竜珠【2】(1段階),null,15,null,null,1.1,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,劫血竜珠【2】(2段階),null,30,null,null,1.2,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,鋼魂竜珠【3】(1Hit),null,null,null,null,null,null,null,5,null,null,3秒, true, false,
+rampage-decoration,,百竜装飾品,鋼魂竜珠【3】(5Hits),null,null,null,null,null,null,null,15,null,null,3秒, true, false,
+rampage-decoration,,百竜装飾品,属痛竜珠【3】,null,null,null,null,null,null,1.15,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,破竜竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,破獣竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,破空竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,破流竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,破小竜珠【1】,null,null,null,1.5,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,火拡竜珠【1】,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,水拡竜珠【1】,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,雷拡竜珠【1】,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,氷拡竜珠【1】,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,鬼激竜珠【3】,null,null,null,null,null,null,null,20,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,天魂竜珠【2】,null,null,null,null,1.2,null,null,null,null,null,null, true, false,
+rampage-decoration,,百竜装飾品,雷神竜珠【2】(しまきx1),null,null,null,null,null,null,null,5,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,雷神竜珠【2】(しまきx2),null,null,null,null,null,null,null,10,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,雷神竜珠【2】(しまきx3),null,null,null,null,null,null,null,15,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,雷神竜珠【2】(しまきx4),null,null,null,null,null,null,null,20,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,雷神竜珠【2】(しまきx5),null,null,null,null,null,null,null,25,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,痛恨竜珠【2】,null,null,null,1.5,null,null,null,null,null,null,null, true, false,
+,,,,,,,,,,,,,,,,,
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,30,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,21,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,18,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,2,null,2,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,3,null,2,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,4,null,4,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,5,null,4,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,6,null,7,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,4,null,10,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,5,null,10,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,2,null,3,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,3,null,3,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,4,null,6,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,5,null,6,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,6,null,10,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 攻撃強化,1,null,5,null,null,null,null,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 攻撃強化,2,null,10,null,null,null,null,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 攻撃強化,3,null,15,null,null,null,null,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 攻撃強化,4,null,20,null,null,null,null,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 属性強化,1,null,null,null,null,null,3,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 属性強化,2,null,null,null,null,null,6,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 属性強化,3,null,null,null,null,null,9,null,null,null,null,null, false, false,
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,4,null,null,null,null,null,12,null,null,null,null,null, false, false,
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,5,null,null,null,null,null,15,null,null,null,null,null, false, false,
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,6,null,null,null,null,null,20,null,null,null,null,null, false, false,
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,7,null,null,null,null,null,27,null,null,null,null,null, false, false,
+qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,4,null,null,null,null,null,20,null,null,null,null,null, false, false,
+qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,5,null,null,null,null,null,25,null,null,null,null,null, false, false,
+qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,6,null,null,null,null,null,33,null,null,null,null,null, false, false,
+qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,7,null,null,null,null,null,43,null,null,null,null,null, false, false,
+qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,4,null,null,null,null,null,14,null,null,null,null,null, false, false,
+qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,5,null,null,null,null,null,18,null,null,null,null,null, false, false,
+qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,6,null,null,null,null,null,24,null,null,null,null,null, false, false,
+qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,7,null,null,null,null,null,32,null,null,null,null,null, false, false,
+qurious-craft,,傀異錬成: 会心率強化,1,null,null,null,null,null,null,null,5,null,null,null, false, false,
+qurious-craft,,傀異錬成: 会心率強化,2,null,null,null,null,null,null,null,10,null,null,null, false, false,

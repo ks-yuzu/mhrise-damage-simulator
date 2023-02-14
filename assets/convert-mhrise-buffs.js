@@ -10,7 +10,7 @@ const csvFilepath = './mhrise-buffs.csv'
       if      (v === "null")         { delete i.metadata[k] }
       else if (v === "true")         { i.metadata[k] = true }
       else if (v === "false")        { i.metadata[k] = false }
-      else if (k === "level")        { i.metadata[k] = parseInt(v) }
+   // else if (k === "level")        { i.metadata[k] = parseInt(v) }
       else if (k === "weaponFilter") { i.metadata[k] = v.split('/').filter(i => i.length > 0) }
     }
     for (const [k, v] of Object.entries(i.spec)) {
