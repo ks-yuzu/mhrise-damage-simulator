@@ -4,8 +4,9 @@ export default class DamageSimulator {
     readonly weapon: {
         attack: number;
         element: number;
+        affinity: number;
     };
-    readonly enhancements: Enhancement[];
+    enhancements: Enhancement[];
     readonly sharpness: Sharpness;
     readonly motion: {
         motionValue: number;
@@ -15,11 +16,21 @@ export default class DamageSimulator {
         physical: number;
         elemental: number;
     };
+    rawAttack: number;
+    rawElement: number;
+    affinity: number;
+    physicalCriticalDamageMultiplier?: number;
+    elementalCriticalDamageMultiplier?: number;
+    physicalDamage: number;
+    elementalDamage: number;
     constructor(params: Partial<DamageSimulator>);
+    setEnhancements(enhancements: Enhancement[]): void;
     /**
      * ダメージ期待値 = 物理期待値 + 属性期待値
      */
-    calcDamage(): number;
+    calc(): number;
+    calcInRealNumbers(): number;
+    private _calc;
     /**
      * 物理期待値 = モーション値 * 攻撃力/100 * 会心補正 * 肉質/100 * 斬れ味補正 * ダメージ補正
      */

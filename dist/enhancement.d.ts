@@ -29,4 +29,3 @@ export default class Enhancement {
 export declare function makeEnhancement(name: string, level: string, spec: Partial<EnhancementSpec>): Enhancement;
 export declare function getEnhancementsByCategory(category: string): Enhancement[];
 export declare const ENHANCEMENTS: Enhancement[];
-//# sourceMappingURL=enhancement.d.ts.map
