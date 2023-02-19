@@ -2,53 +2,83 @@ import Enhancement, {EnhancementSpec} from './enhancement'
 import type {Sharpness} from './sharpness'
 
 export default class DamageSimulator {
-  readonly weapon: {
-    attack:  number
-    element: number
+  // input
+  public readonly weapon: {
+    attack:   number
+    element:  number
+    affinity: number
   }
-  readonly enhancements:  Enhancement[]
-  readonly sharpness: Sharpness
-  readonly motion: {
-    motionValue: number
+  public          enhancements:  Enhancement[]
+  public readonly sharpness: Sharpness
+  public readonly motion: {
+    motionValue:     number
     elementModifier: number
   }
-  readonly monsterPartMultiplier: {
+  public readonly monsterPartMultiplier: {
     physical:  number
     elemental: number
   }
 
+  // output (観測用を含む)
+  public rawAttack:                          number = 0
+  public rawElement:                         number = 0
+  public affinity:                           number = 0
+  public physicalCriticalDamageMultiplier?:  number
+  public elementalCriticalDamageMultiplier?: number
+  public physicalDamage:                     number = 0
+  public elementalDamage:                    number = 0
+
+
   constructor(params: Partial<DamageSimulator>) {
-    this.weapon                = Object.assign({attack: 0, element: 0},              params.weapon ?? {})
+    this.weapon                = Object.assign({attack: 0, element: 0, affinity: 0}, params.weapon ?? {})
     this.enhancements          = params.enhancements ?? []
     this.sharpness             = params.sharpness ?? 'none'
     this.motion                = Object.assign({motionValue: 0, elementModifier: 1}, params.motion ?? {})
     this.monsterPartMultiplier = Object.assign({physical: 0, elemental: 0},          params.monsterPartMultiplier ?? {})
   }
 
+  public setEnhancements(enhancements: Enhancement[]) {
+    this.enhancements = enhancements
+  }
+
   /**
    * ダメージ期待値 = 物理期待値 + 属性期待値
    */
-  public calcDamage() {
-    const physicalDamage  = this._calcPhysicalDamage()
-    const elementalDamage = this._calcElementalDamage()
+  public calc() {
+    this._calc()
+    return Math.round(this.physicalDamage) + Math.round(this.elementalDamage)
+  }
 
-    console.log({physicalDamage, elementalDamage})
-    return Math.round(physicalDamage) + Math.round(elementalDamage)
+  public calcInRealNumbers() {
+    this._calc()
+    return this.physicalDamage + this.elementalDamage
+  }
+
+  private _calc() {
+    this.affinity         = this._getAffinity()
+
+    const physicalDamage  = this._calcPhysicalDamage(this.affinity)
+    const elementalDamage = this._calcElementalDamage(this.affinity)
+    // console.log({physicalDamage, elementalDamage, affinity: this.affinity})
+
+    this.physicalDamage   = physicalDamage
+    this.elementalDamage  = elementalDamage
   }
 
   /**
    * 物理期待値 = モーション値 * 攻撃力/100 * 会心補正 * 肉質/100 * 斬れ味補正 * ダメージ補正
    */
-  private _calcPhysicalDamage() {
-    const motionValue           = this._getMotionValue()
-    const rawAttack             = this._getRawAttack()
-    const criticalMultiplier    = 1 + this._getPhysicalCriticalDamageMultiplier() * this._getAffinity() / 100 // 会心関連での期待値補正
-    const monsterPartMultiplier = this._getMonsterPartPhysicalMultiplier()
-    const sharpnessModifier     = this._getSharpnessPhysicalModifier()
-    const damageMultiplier      = this._getPhysicalDamageMultiplier()
+  private _calcPhysicalDamage(affinity: number) {
+    const motionValue                     = this._getMotionValue()
+    this.rawAttack                        = this._getRawAttack()
+    this.physicalCriticalDamageMultiplier = this._getPhysicalCriticalDamageMultiplier()
+    const criticalMultiplier              = 1 + this.physicalCriticalDamageMultiplier * affinity / 100 // 会心関連での期待値補正
+    const monsterPartMultiplier           = this._getMonsterPartPhysicalMultiplier()
+    const sharpnessModifier               = this._getSharpnessPhysicalModifier()
+    const damageMultiplier                = this._getPhysicalDamageMultiplier()
     // TODO: 怒り補正
-    console.log({motionValue, rawAttack, criticalMultiplier, monsterPartMultiplier, sharpnessModifier, damageMultiplier})
-    return motionValue * rawAttack * criticalMultiplier * monsterPartMultiplier * sharpnessModifier * damageMultiplier / 100
+    // console.log({motionValue, this.rawAttack, criticalMultiplier, monsterPartMultiplier, sharpnessModifier, damageMultiplier})
+    return motionValue * this.rawAttack * criticalMultiplier * monsterPartMultiplier * sharpnessModifier * damageMultiplier / 100
   }
 
   private _getRawAttack() {
@@ -56,7 +86,7 @@ export default class DamageSimulator {
     const addend      = this._sumEnhancements('rawAttackAddend')
     const multiplier2 = this._productEnhancements('rawAttackMultiplier2')
 
-    console.log({weaponAttack: this.weapon.attack, multiplier1, addend, multiplier2})
+    // console.log({weaponAttack: this.weapon.attack, multiplier1, addend, multiplier2})
     return ((this.weapon.attack * multiplier1) + addend) * multiplier2
   }
 
@@ -75,7 +105,7 @@ export default class DamageSimulator {
    * 会心率
    */
   private _getAffinity() {
-    const affinity = this._sumEnhancements('affinityAddend')
+    const affinity = this.weapon.affinity + this._sumEnhancements('affinityAddend')
     return affinity > 100 ? 100 : affinity
   }
 
@@ -113,16 +143,17 @@ export default class DamageSimulator {
   /**
    * 属性ダメージ = 属性補正値 * 属性値 * 属性会心補正 * 肉質% * 斬れ味補正 * ダメージ補正
    */
-  private _calcElementalDamage() {
-    const elementModifier       = this._getElementModifier()
-    const elementValue          = this._getElementValue()
-    const criticalMultiplier    = 1 + this._getElementalCriticalDamageMultiplier() * this._getAffinity() / 100 // 会心関連での期待値補正
-    const monsterPartMultiplier = this._getMonsterPartElementalMultiplier()
-    const sharpnessModifier     = this._getSharpnessElementalModifier()
-    const damageMultiplier      = this._getElementalDamageMultiplier()
+  private _calcElementalDamage(affinity: number) {
+    const elementModifier                  = this._getElementModifier()
+    this.rawElement                        = this._getElementValue()
+    this.elementalCriticalDamageMultiplier = this._getElementalCriticalDamageMultiplier()
+    const criticalMultiplier               = 1 + this.elementalCriticalDamageMultiplier * affinity / 100 // 会心関連での期待値補正
+    const monsterPartMultiplier            = this._getMonsterPartElementalMultiplier()
+    const sharpnessModifier                = this._getSharpnessElementalModifier()
+    const damageMultiplier                 = this._getElementalDamageMultiplier()
     // TODO: 怒り補正
-    console.log({elementModifier, elementValue, criticalMultiplier, monsterPartMultiplier, sharpnessModifier, damageMultiplier})
-    return elementModifier * elementValue * criticalMultiplier * monsterPartMultiplier * sharpnessModifier * damageMultiplier
+    // console.log({elementModifier, this.rawElement, criticalMultiplier, monsterPartMultiplier, sharpnessModifier, damageMultiplier})
+    return elementModifier * this.rawElement * criticalMultiplier * monsterPartMultiplier * sharpnessModifier * damageMultiplier
   }
 
   /**
@@ -140,7 +171,7 @@ export default class DamageSimulator {
     const addend      = this._sumEnhancements('elementAddend')
  // const multiplier2 = this._productEnhancements('elementMultiplier2')
 
-    console.log({weaponElement: this.weapon.element, multiplier1, addend})
+    // console.log({weaponElement: this.weapon.element, multiplier1, addend})
     return ((this.weapon.element * multiplier1) + addend)// * multiplier2
   }
 
