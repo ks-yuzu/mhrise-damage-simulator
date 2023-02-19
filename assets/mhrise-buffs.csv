@@ -289,7 +289,7 @@ rampage-decoration,,百竜装飾品,鋼魂竜珠【3】(5Hits),null,null,null,nu
 rampage-decoration,,百竜装飾品,属痛竜珠【3】,null,null,null,null,null,null,1.15,null,null,null,null, true, false,
 rampage-decoration,,百竜装飾品,破竜竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
 rampage-decoration,,百竜装飾品,破獣竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
-rampage-decoration,,百竜装飾品,破空竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
+rampage-decoration,,百竜装飾品,破空竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, true,
 rampage-decoration,,百竜装飾品,破流竜珠【2】,null,null,null,1.05,null,null,null,null,null,null,null, false, false,
 rampage-decoration,,百竜装飾品,破小竜珠【1】,null,null,null,1.5,null,null,null,null,null,null,null, false, false,
 rampage-decoration,,百竜装飾品,火拡竜珠【1】,null,null,null,1.1,null,null,null,null,null,null,null, true, false,
@@ -310,38 +310,38 @@ qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,2,null,
 qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,10,null,null,null,null,null, false, false,属性武器の場合
-qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,30,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,大剣/ハンマー,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,30,null,null,null,null,null, false, true,属性武器の場合
 qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
 qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,7,null,null,null,null,null, false, false,属性武器の場合
-qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,21,null,null,null,null,null, false, false,属性武器の場合
+qurious-craft,ランス/ガンランス,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,21,null,null,null,null,null, false, true,属性武器の場合
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,4,null,15,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,5,null,15,null,null,null,6,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
-qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,18,null,null,null,null,null, false, false,属性武器かつ、状態異常を含む双属性でない場合
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,18,null,null,null,null,null, false, true,属性武器かつ、状態異常を含む双属性でない場合
 qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,2,null,2,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,3,null,2,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,4,null,4,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,5,null,4,null,null,null,0,null,null,null,null,null, false, false,
-qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,6,null,7,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ライトボウガン,傀異錬成: 傀異スロット拡張,6,null,7,null,null,null,0,null,null,null,null,null, false, true,
 qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,2,null,5,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,3,null,5,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,4,null,10,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,5,null,10,null,null,null,0,null,null,null,null,null, false, false,
-qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,0,null,null,null,null,null, false, false,
+qurious-craft,ヘビィボウガン,傀異錬成: 傀異スロット拡張,6,null,15,null,null,null,0,null,null,null,null,null, false, true,
 qurious-craft,弓,傀異錬成: 傀異スロット拡張,1,null,0,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,弓,傀異錬成: 傀異スロット拡張,2,null,3,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,弓,傀異錬成: 傀異スロット拡張,3,null,3,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,弓,傀異錬成: 傀異スロット拡張,4,null,6,null,null,null,0,null,null,null,null,null, false, false,
 qurious-craft,弓,傀異錬成: 傀異スロット拡張,5,null,6,null,null,null,0,null,null,null,null,null, false, false,
-qurious-craft,弓,傀異錬成: 傀異スロット拡張,6,null,10,null,null,null,0,null,null,null,null,null, false, false,
-qurious-craft,,傀異錬成: 攻撃強化,1,null,5,null,null,null,null,null,null,null,null,null, false, false,
+qurious-craft,弓,傀異錬成: 傀異スロット拡張,6,null,10,null,null,null,0,null,null,null,null,null, false, true,
+qurious-craft,,傀異錬成: 攻撃強化,1,null,5,null,null,null,null,null,null,null,null,null, false, true,
 qurious-craft,,傀異錬成: 攻撃強化,2,null,10,null,null,null,null,null,null,null,null,null, false, false,
 qurious-craft,,傀異錬成: 攻撃強化,3,null,15,null,null,null,null,null,null,null,null,null, false, false,
 qurious-craft,,傀異錬成: 攻撃強化,4,null,20,null,null,null,null,null,null,null,null,null, false, false,
@@ -351,14 +351,14 @@ qurious-craft,,傀異錬成: 属性強化,3,null,null,null,null,null,9,null,null
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,4,null,null,null,null,null,12,null,null,null,null,null, false, false,
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,5,null,null,null,null,null,15,null,null,null,null,null, false, false,
 qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,6,null,null,null,null,null,20,null,null,null,null,null, false, false,
-qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,7,null,null,null,null,null,27,null,null,null,null,null, false, false,
+qurious-craft,太刀/狩猟笛/双剣/片手剣/スラッシュアックス/チャージアックス/操虫棍/ライトボウガン/ヘビィボウガン/弓,傀異錬成: 属性強化,7,null,null,null,null,null,27,null,null,null,null,null, false, true,
 qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,4,null,null,null,null,null,20,null,null,null,null,null, false, false,
 qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,5,null,null,null,null,null,25,null,null,null,null,null, false, false,
 qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,6,null,null,null,null,null,33,null,null,null,null,null, false, false,
-qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,7,null,null,null,null,null,43,null,null,null,null,null, false, false,
+qurious-craft,大剣/ハンマー,傀異錬成: 属性強化,7,null,null,null,null,null,43,null,null,null,null,null, false, true,
 qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,4,null,null,null,null,null,14,null,null,null,null,null, false, false,
 qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,5,null,null,null,null,null,18,null,null,null,null,null, false, false,
 qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,6,null,null,null,null,null,24,null,null,null,null,null, false, false,
-qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,7,null,null,null,null,null,32,null,null,null,null,null, false, false,
+qurious-craft,ランス/ガンランス,傀異錬成: 属性強化,7,null,null,null,null,null,32,null,null,null,null,null, false, true,
 qurious-craft,,傀異錬成: 会心率強化,1,null,null,null,null,null,null,null,5,null,null,null, false, false,
 qurious-craft,,傀異錬成: 会心率強化,2,null,null,null,null,null,null,null,10,null,null,null, false, false,

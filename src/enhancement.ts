@@ -4512,7 +4512,7 @@ export const ENHANCEMENTS = [
       "name": "百竜装飾品",
       "level": "破空竜珠【2】",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -4815,7 +4815,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": "属性武器の場合"
     },
     "spec": {
@@ -4923,7 +4923,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": "属性武器の場合"
     },
     "spec": {
@@ -5061,7 +5061,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": "属性武器かつ、状態異常を含む双属性でない場合"
     },
     "spec": {
@@ -5163,7 +5163,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5265,7 +5265,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5367,7 +5367,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 傀異スロット拡張",
       "level": "6",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5382,7 +5382,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 攻撃強化",
       "level": "1",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5566,7 +5566,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 属性強化",
       "level": "7",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5634,7 +5634,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 属性強化",
       "level": "7",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
@@ -5702,7 +5702,7 @@ export const ENHANCEMENTS = [
       "name": "傀異錬成: 属性強化",
       "level": "7",
       "isTemporary": false,
-      "isEnabledByDefault": false,
+      "isEnabledByDefault": true,
       "description": ""
     },
     "spec": {
